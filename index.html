@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+    <Title> Wishes </Title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "cssIpage.css">
+    </head>
+    <body>
+        <form>
+        <p id="demo">
+            <div class = "inp">
+                <input name='Name' placeholder='Name' type='text' id = "nam">
+                
+            </div>
+        </p>
+      <!--  <button type="button" onclick="myFunction()">Try it</button> -->
+
+<div class="btn-contain">
+  <button type="button" onclick="myFunction()">Click Me!</button>
+<div class="btn-particles">
+  </div>
+</div>
+
+<script src="C:\Users\91949\OneDrive\Desktop\Soccer\ExportBirthdayFiles\jsIpage.js"></script>
+
+   <script>function myFunction(){
+      var para = new URLSearchParams();
+      para.append("KEY", document.getElementById('nam').value);
+      location.href = "C:/Users/91949/OneDrive/Desktop/Soccer/ExportBirthdayFiles/cardTest.html?" + para.toString();}
+   </script>
+            
+        </form>
+
+<canvas id="canvas"></canvas>
+<script type="text/javascript" src="C:\Users\91949\OneDrive\Desktop\Soccer\ExportBirthdayFiles\confettiJs.js"></script>
+
+    </body>
+<html>
