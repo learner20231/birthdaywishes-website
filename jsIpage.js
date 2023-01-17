@@ -75,4 +75,4 @@ $(function() {
 function myFunction(){
       var para = new URLSearchParams();
       para.append("KEY", document.getElementById('nam').value);
-      location.href = "https://github.com/learner20231/birthdaywishes-website/blob/main/cardTest.html?" + para.toString();}
+      location.href = "cardTest.html?" + para.toString();}
